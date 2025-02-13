@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zoom Mart-inspired landing page">
+   
+    <title>Zepto Inspired Landing Page</title>
+    <style>
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body
+        <body style="background-image: url('background.jpg'); background-size: cover; background-repeat: no-repeat;">
+        { font-family: Arial, sans-serif; line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+
+
+        header { background-color: #0c0700; color: #f34ba5; padding: 20px; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        nav .logo { font-size: 24px; font-weight: bold; }
+        nav .nav-links { display: flex; gap: 20px; }
+        nav .nav-links li { list-style: none; }
+        nav .cta-button { background-color: #ec1b87; color: #fff; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px; }
+        nav .cta-button:hover { background-color: #45a049; }
+
+      
+        .hero { background-color: #f4cdeb; text-align: center; padding: 80px 20px; }
+        .hero h1 { font-size: 50px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; }
+        .hero .cta-button { font-size: 20px; }
+
+    
+        .features { padding: 50px 20px; text-align: center; background-color: #f9f9f9; }
+        .features h2 { margin-bottom: 40px; }
+        .feature-container { display: flex; justify-content: space-around; gap: 30px; }
+        .feature-box { background-color: #e6a0d5; padding: 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 250px; border-radius: 8px; text-align: center; }
+        .feature-box h3 { margin-bottom: 15px; }
+        .feature-box p { font-size: 16px; }
+
+   
+        .testimonials { background-color: #0b0b0b; color: #ec1b87; padding: 50px 20px; text-align: center; }
+        .testimonials h2 { margin-bottom: 40px; }
+        .testimonial-container { display: flex; justify-content: center; gap: 30px; }
+        .testimonial-box { background-color: #e6a0d5; padding: 30px; border-radius: 8px; width: 250px; }
+        .testimonial-box p { font-size: 16px; margin-bottom: 15px; }
+
+       
+        footer { background-color: #f4cdeb; color: #e74ae9; padding: 30px 20px; text-align: center; }
+        footer .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        footer .footer-links { display: flex; gap: 20px; }
+        footer .footer-links li { list-style: none; }
+        footer .footer-links li a { color: #e74ae9; }
+        footer .footer-links li a:hover { color: #e74ae9; }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">Zoom Mart</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-button">Sign Up</button>
+        </nav>
+    </header>
+
+    
+    <section id="hero" class="hero">
+        <h1>Fast. Reliable. Simple.</h1>
+        <p>Zoomart – Fast, Fresh, Delivered!
+
+            At Zoomart, we bring fresh, high-quality groceries straight to your doorstep—fast, simple, and reliable. Whether you need everyday essentials or premium imports, our seamless ordering and swift delivery ensure you get what you need, when you need it. Experience hassle-free shopping with Zoomart, where freshness meets convenience.
+            
+            </p>
+        <button class="cta-button">Get Started</button>
+    </section>
+
+   
+    <section id="features" class="features">
+        <h2>Our Features Compared To Other Mart</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <img src="C:\Users\Parinitha\Downloads\20.png" width="200" height="200">
+
+            
+                <h3>Speed</h3>
+                <p>Get results in no time with our lightning-fast service.</p>
+            </div>
+            <div class="feature-box">
+                <img src="C:\Users\Parinitha\Downloads\201.png" width="200" height="200">
+
+                <h3>Reliability</h3>
+                <p>Depend on us for your critical tasks with 99.9% uptime.</p>
+            </div>
+            <div class="feature-box">
+                <img src="C:\Users\Parinitha\Downloads\202.jpeg" width="200" height="200">
+
+                <h3>Ease of Use</h3>
+                <p>Our interface is designed to be intuitive for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-box">
+                <p>"Overall, a great app, but I’d love to see more payment options and real-time order tracking. Keep up the good work!"
+                </p>
+                <p>- Lohitha</p>
+            </div>
+            <div class="testimonial-box">
+                <p>"Had a small issue with my order, but customer support resolved it immediately. Excellent service and professionalism!"
+                </p>
+                <p>- Rajamani</p>
+                
+            </div>
+            <div class="testimonial-box">
+                <p>"Zoom Mart has been a game-changer! The app is user-friendly, deliveries are always on time, and the quality of products is excellent. Highly recommended!"
+                </p>
+                <p>-kavya</p>
+            </div>
+            <div class="testimonial-box">
+                <p>"Zoom Mart offers a great selection of products, and everything I’ve ordered so far has been fresh and well-packaged. Love the convenience!"
+                </p>
+                <p>- deepthi</p>
+            </div>
+
+        </div>
+    </section>
+
+   
+    <footer id="contact">
+        <div class="footer-content">
+            <p>&copy; 2025 Zepto. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+     
+        document.querySelector(".cta-button").addEventListener("click", function() {
+            alert("Welcome to Zepto!");
+        });
+    </script>
+</body>
+</html>
