@@ -28,7 +28,7 @@ bash
 Open any of the .html files directly in your browser to view that project.
 
 🔗 Live Demos
-https://github.com/Tharunima004/CODSOFT/settings/pages
+
 
 
 👤 Author
